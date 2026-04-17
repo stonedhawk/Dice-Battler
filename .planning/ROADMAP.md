@@ -16,7 +16,7 @@ MVP delivery for the offline Android Flutter game described in the project docs.
 **Plans:** 1
 
 Plans:
-- [ ] 01-01-PLAN.md — Bootstrap lean GSD docs, add the Flutter shell, implement deterministic battle logic, and add Phase 1 tests
+- [x] 01-01-PLAN.md — Bootstrap lean GSD docs, add the Flutter shell, implement deterministic battle logic, and add Phase 1 tests
 
 ### Phase 2: Battle screen
 
@@ -26,7 +26,7 @@ Plans:
 **Plans:** 1
 
 Plans:
-- [ ] TBD (run `$gsd-plan-phase 2` to break down)
+- [x] 02-01-PLAN.md — Add a playable battle screen, battle controller, and widget coverage for one-battle win/loss flow
 
 ### Phase 3: Run flow and rewards
 
@@ -36,7 +36,7 @@ Plans:
 **Plans:** 1
 
 Plans:
-- [ ] TBD (run `$gsd-plan-phase 3` to break down)
+- [x] 03-01-PLAN.md — Add run orchestration, deterministic reward flow, and game-over/victory results screens
 
 ### Phase 4: Persistence and polish
 
@@ -46,7 +46,7 @@ Plans:
 **Plans:** 1
 
 Plans:
-- [ ] TBD (run `$gsd-plan-phase 4` to break down)
+- [x] 04-01-PLAN.md — Add best streak persistence, tutorial seen persistence, and light UI polish with persistence-focused tests
 
 ### Phase 5: Stabilization
 
@@ -56,7 +56,7 @@ Plans:
 **Plans:** 1
 
 Plans:
-- [ ] TBD (run `$gsd-plan-phase 5` to break down)
+- [x] 05-01-PLAN.md — Refresh home-screen streak updates, add final regression tests, and confirm MVP scope stayed stable
 
 ---
-*Last updated: 2026-04-16 after lean GSD bootstrap*
+*Last updated: 2026-04-17 after Phase 5 implementation*

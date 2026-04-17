@@ -1,9 +1,40 @@
 import 'package:flutter/material.dart';
 
 import '../../app/routes.dart';
+import '../storage/save_service.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({
+    super.key,
+    this.saveService = const SaveService(),
+  });
+
+  final SaveService saveService;
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  int _bestStreak = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadBestStreak();
+  }
+
+  Future<void> _loadBestStreak() async {
+    final bestStreak = await widget.saveService.loadBestStreak();
+
+    if (!mounted) {
+      return;
+    }
+
+    setState(() {
+      _bestStreak = bestStreak;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -15,28 +46,28 @@ class HomeScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               const Spacer(),
-              const Card(
+              Card(
                 child: Padding(
-                  padding: EdgeInsets.all(24),
+                  padding: const EdgeInsets.all(24),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Dice Battler',
                         style: TextStyle(
                           fontSize: 32,
                           fontWeight: FontWeight.w800,
                         ),
                       ),
-                      SizedBox(height: 12),
-                      Text(
+                      const SizedBox(height: 12),
+                      const Text(
                         'A tiny offline tactics run. Roll 3 dice, then split them between attack, block, and heal.',
                         style: TextStyle(fontSize: 16),
                       ),
-                      SizedBox(height: 20),
+                      const SizedBox(height: 20),
                       Text(
-                        'Best streak: Coming in Milestone 4',
-                        style: TextStyle(fontWeight: FontWeight.w600),
+                        'Best streak: $_bestStreak',
+                        style: const TextStyle(fontWeight: FontWeight.w600),
                       ),
                     ],
                   ),
@@ -44,8 +75,9 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 24),
               FilledButton(
-                onPressed: () {
-                  Navigator.of(context).pushNamed(AppRoutes.battle);
+                onPressed: () async {
+                  await Navigator.of(context).pushNamed(AppRoutes.run);
+                  await _loadBestStreak();
                 },
                 child: const Padding(
                   padding: EdgeInsets.symmetric(vertical: 16),
@@ -54,7 +86,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 12),
               const Text(
-                'Phase 1 note: the battle screen is still a shell while the rule engine lands first.',
+                'Three dice. Attack. Block. Heal. Clear all 10 battles in one run.',
                 textAlign: TextAlign.center,
               ),
               const Spacer(),
