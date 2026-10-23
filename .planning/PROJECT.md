@@ -2,7 +2,7 @@
 
 ## What This Is
 
-Dice Battler is a small, fully offline, turn-based Android game built in Flutter. The player clears a 10-battle run by rolling three dice each turn and assigning them to attack, block, or heal in a fast, readable combat loop.
+Dice Battler is a small, fully offline, turn-based game for Android and iOS (Android primary) built in Flutter. The player clears a 10-battle run by rolling three dice each turn and assigning them to attack, block, or heal in a fast, readable combat loop.
 
 ## Core Value
 
@@ -30,13 +30,13 @@ Ship a tiny, deterministic tactics game that is actually finishable and easy for
 
 - Planning docs live at the project root and are the source of truth for scope and architecture.
 - The Flutter app source must live in `/app`.
-- The technical design requires a plain Flutter app, Material 3, Android-only support, offline-only behavior, and `shared_preferences` as the only approved dependency.
+- The technical design requires a plain Flutter app, Material 3, Android and iOS support (Android primary), offline-only behavior, and `shared_preferences` as the only approved dependency.
 - Milestone 1 focuses on the app shell, home screen, pure rule engine, pure enemy factory, and rule-engine tests.
 
 ## Constraints
 
 - **Tech stack**: Plain Flutter and Dart — easier for a beginner to follow and test than a game engine.
-- **Platform**: Android only — keeps the MVP finishable.
+- **Platform**: Android and iOS, Android primary. iOS is built and checked on the simulator so the MVP stays finishable.
 - **Connectivity**: Offline only — no backend or networking work.
 - **Dependencies**: `shared_preferences` only — avoid unnecessary packages and state-management frameworks.
 - **Code style**: Beginner-friendly code over clever abstractions — the user should be able to extend it with AI help.

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../app/ftue_truth.dart';
 import '../../app/routes.dart';
 import '../storage/save_service.dart';
 
@@ -21,6 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    FtueTruth.report(FtueStep.home);
     _loadBestStreak();
   }
 
@@ -77,6 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
               FilledButton(
                 onPressed: () async {
                   await Navigator.of(context).pushNamed(AppRoutes.run);
+                  FtueTruth.report(FtueStep.home);
                   await _loadBestStreak();
                 },
                 child: const Padding(

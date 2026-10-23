@@ -8,11 +8,12 @@ Read these files in order before coding:
 
 ## Non-negotiables
 - Keep the actual Flutter code in `/app`
-- Use Android only
+- Target Android and iOS, Android primary
 - Stay inside MVP scope
 - Keep code beginner-friendly and heavily named, not overly abstract
 - Use placeholder visuals only
 - Do not introduce backend, analytics, ads, multiplayer, login, or IAP
+- Keep the debug-only FTUE truth log in step with the screens (see `README.md`)
 - Run `flutter analyze` and `flutter test` after each milestone
 - Stop and report after the requested milestone instead of expanding scope
 

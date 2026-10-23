@@ -15,7 +15,7 @@ Reason:
 ## 2. Stack
 - Flutter
 - Dart
-- Android only
+- Android and iOS, Android primary
 - Material 3
 - `shared_preferences` for local persistence
 - No backend
@@ -162,8 +162,14 @@ Recommended display:
 - Show best streak
 - CTA to start a new run
 
+### FTUE truth log (debug builds only)
+- `lib/app/ftue_truth.dart` prints one `FTUE_TRUTH step=<id>` line with `debugPrint` each time the player's screen changes
+- `HomeScreen` reports `home`; `RunScreen` reports `tutorial` while the dialog is open and otherwise its stage (`battle`, `reward`, `victory`, `game_over`)
+- It never repeats the same id twice in a row and prints nothing outside debug builds
+- It is not analytics: nothing is stored or sent. The ids and log commands are in `README.md`
+
 ## 9. Orientation and device behavior
-- Lock portrait orientation
+- Lock portrait orientation: `main.dart` sets portrait up, the Android activity sets `android:screenOrientation="portrait"`, and the iOS `Info.plist` lists portrait only for iPhone and iPad
 - Support common phone sizes
 - No tablet-specific UI work for MVP
 
@@ -186,10 +192,10 @@ Not approved for MVP:
 ## Tooling and stack setup for this project
 
 ### Mandatory stack
-- **Target platform:** Android only
+- **Target platforms:** Android and iOS, Android primary
 - **App framework:** Flutter
 - **Language:** Dart
-- **IDE:** Android Studio
+- **IDE:** Android Studio (Xcode for iOS builds)
 - **AI agents:** Claude Code and Codex CLI
 - **Persistence:** `shared_preferences`
 - **Backend:** none
@@ -287,7 +293,7 @@ codex mcp add dart -- dart mcp-server --force-roots-fallback
 ### 9. Create the Flutter project inside `/app`
 From this game folder:
 ```bash
-flutter create app --platforms=android --org com.example.offlinegames
+flutter create app --platforms=android,ios --org com.antigravity
 cd app
 flutter pub add shared_preferences
 ```
@@ -316,13 +322,24 @@ flutter pub add shared_preferences
 ## 12. Build and run commands
 From the game folder:
 ```bash
-flutter create app --platforms=android --org com.example.offlinegames
+flutter create app --platforms=android,ios --org com.antigravity
 cd app
 flutter pub add shared_preferences
 flutter analyze
 flutter test
 flutter run
 ```
+
+### Platforms and app id
+- Android `applicationId` and `namespace`, and the iOS bundle id, are all `com.antigravity.dicebattler`. `flutter create` would pick `dice_battler` or `diceBattler`, so set them by hand if you ever regenerate the platform folders.
+- `MainActivity.kt` must live in `android/app/src/main/kotlin/com/antigravity/dicebattler/` with `package com.antigravity.dicebattler`, so the manifest's `.MainActivity` resolves. A mismatch builds fine and then crashes on launch.
+
+Debug builds for the emulator and simulator, from `/app`:
+```bash
+flutter build apk --debug
+flutter build ios --simulator --debug
+```
+They land at `app/build/app/outputs/flutter-apk/app-debug.apk` and `app/build/ios/iphonesimulator/Runner.app`. The iOS build needs full Xcode and CocoaPods (`brew install cocoapods`), because `shared_preferences` brings in a pod.
 
 ## 13. Testing strategy
 ### Unit tests

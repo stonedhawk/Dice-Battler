@@ -15,7 +15,7 @@ This folder is meant to be used as the **project root for planning**. The actual
 ## Commands
 Create the app:
 ```bash
-flutter create app --platforms=android --org com.example.offlinegames
+flutter create app --platforms=android,ios --org com.antigravity
 ```
 
 After creation, install packages listed in the technical design:
@@ -41,7 +41,7 @@ codex
 Use this exact prompt in Claude Code or Codex:
 
 ```text
-Read CLAUDE.md or AGENTS.md first, then read PRD.md, TECHNICAL_DESIGN.md, IMPLEMENTATION_PLAN.md, and QA_CHECKLIST.md. Create the Flutter Android app in /app if it does not exist yet. Implement Milestone 1 only. Keep the code beginner-friendly, avoid extra packages, use placeholder art only, and do not add any feature that is marked out of scope. After coding, run flutter analyze and flutter test, then summarize what was completed and what remains.
+Read CLAUDE.md or AGENTS.md first, then read PRD.md, TECHNICAL_DESIGN.md, IMPLEMENTATION_PLAN.md, and QA_CHECKLIST.md. Create the Flutter app for Android and iOS in /app if it does not exist yet. Implement Milestone 1 only. Keep the code beginner-friendly, avoid extra packages, use placeholder art only, and do not add any feature that is marked out of scope. After coding, run flutter analyze and flutter test, then summarize what was completed and what remains.
 ```
 
 ## Rules for the first implementation pass
