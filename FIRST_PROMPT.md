@@ -3,7 +3,7 @@
 ```text
 Read CLAUDE.md or AGENTS.md first, then read PRD.md, TECHNICAL_DESIGN.md, IMPLEMENTATION_PLAN.md, and QA_CHECKLIST.md.
 
-Create the Flutter Android app in /app if it does not exist yet. Implement Milestone 1 only for Dice Battler:
+Create the Flutter app for Android and iOS in /app if it does not exist yet. Implement Milestone 1 only for Dice Battler:
 - app shell
 - home screen
 - core models
@@ -12,7 +12,7 @@ Create the Flutter Android app in /app if it does not exist yet. Implement Miles
 - unit tests for game rules
 
 Constraints:
-- Android only
+- Android and iOS, Android primary
 - plain Flutter, no Flame
 - use shared_preferences only for later persistence work
 - placeholder UI only

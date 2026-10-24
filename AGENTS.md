@@ -9,12 +9,13 @@ Read these files before doing any work:
 ## Project conventions
 - Project planning docs live in this folder
 - Flutter app source must live in `/app`
-- Android only
+- Android and iOS, Android primary (iOS is built and checked on the simulator)
 - Offline only
 - Placeholder art only
 - Beginner-friendly code over clever code
 - Do not expand scope beyond MVP
 - Do not add backend, analytics, ads, login, multiplayer, cloud save, or IAP
+- Debug builds print one `FTUE_TRUTH step=<id>` line per screen change (see `README.md`). If you add a screen the player can see, give it a step id in `lib/app/ftue_truth.dart` and report it
 
 ## Approved dependencies
 - `shared_preferences`

@@ -1,14 +1,14 @@
 # PRD: Dice Battler
 
 ## 1. Product summary
-Dice Battler is a small, fully offline, turn-based combat game for Android. The player fights through a 10-battle run by rolling three dice each turn and assigning each die to **Attack**, **Block**, or **Heal**.
+Dice Battler is a small, fully offline, turn-based combat game for Android and iOS, with Android as the primary platform. The player fights through a 10-battle run by rolling three dice each turn and assigning each die to **Attack**, **Block**, or **Heal**.
 
 This project exists for two reasons:
 1. Ship a small game that is actually finishable.
 2. Learn Flutter fundamentals without jumping into real-time game engine complexity.
 
 ## 2. Product goals
-- Build and ship a small offline Android game with no backend.
+- Build and ship a small offline mobile game with no backend: Android first, iOS alongside.
 - Teach core mobile game architecture in Flutter:
   - screen flow
   - local state
@@ -31,7 +31,7 @@ This project exists for two reasons:
 
 ## 5. MVP scope
 ### Included
-- Android only
+- Android and iOS, Android primary
 - Offline only
 - One run = 10 battles
 - One player character
