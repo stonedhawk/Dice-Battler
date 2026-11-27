@@ -1,0 +1,49 @@
+{
+  "files": 30,
+  "nodes": 212,
+  "edges": 260,
+  "communities": 19,
+  "html_status": "ok",
+  "top_god_nodes": [
+    {
+      "id": "title::.planning::PROJECT.md",
+      "label": "Dice Battler",
+      "edges": 1
+    },
+    {
+      "id": "heading::.planning::PROJECT.md::what_this_is",
+      "label": "What This Is",
+      "edges": 1
+    },
+    {
+      "id": "heading::.planning::PROJECT.md::core_value",
+      "label": "Core Value",
+      "edges": 1
+    },
+    {
+      "id": "heading::.planning::PROJECT.md::requirements",
+      "label": "Requirements",
+      "edges": 1
+    },
+    {
+      "id": "heading::.planning::PROJECT.md::validated",
+      "label": "Validated",
+      "edges": 1
+    },
+    {
+      "id": "heading::.planning::PROJECT.md::active",
+      "label": "Active",
+      "edges": 1
+    },
+    {
+      "id": "heading::.planning::PROJECT.md::out_of_scope",
+      "label": "Out of Scope",
+      "edges": 1
+    },
+    {
+      "id": "heading::.planning::PROJECT.md::context",
+      "label": "Context",
+      "edges": 1
+    }
+  ]
+}

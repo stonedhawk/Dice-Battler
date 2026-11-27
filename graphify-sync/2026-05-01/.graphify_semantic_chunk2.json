@@ -1,0 +1,1082 @@
+{
+  "nodes": [
+    {
+      "id": "reward_screen_RewardScreen",
+      "label": "RewardScreen",
+      "file_type": "code",
+      "source_file": "lib/features/rewards/reward_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reward_service_RewardService",
+      "label": "RewardService",
+      "file_type": "code",
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reward_service_buildRewardChoices",
+      "label": "RewardService.buildRewardChoices",
+      "file_type": "code",
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reward_service_applyReward",
+      "label": "RewardService.applyReward",
+      "file_type": "code",
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reward_service_titleFor",
+      "label": "RewardService.titleFor",
+      "file_type": "code",
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reward_service_descriptionFor",
+      "label": "RewardService.descriptionFor",
+      "file_type": "code",
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_controller_RunController",
+      "label": "RunController",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_controller_continueFromBattleResult",
+      "label": "RunController.continueFromBattleResult",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_controller_markTutorialSeen",
+      "label": "RunController.markTutorialSeen",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_controller_selectReward",
+      "label": "RunController.selectReward",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_controller_restartRun",
+      "label": "RunController.restartRun",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_controller_RunStage",
+      "label": "RunStage",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_screen_RunScreen",
+      "label": "RunScreen",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_state_RunState",
+      "label": "RunState",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_state.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_state_RunStatus",
+      "label": "RunStatus",
+      "file_type": "code",
+      "source_file": "lib/features/run/run_state.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "save_service_SaveService",
+      "label": "SaveService",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "save_service_loadBestStreak",
+      "label": "SaveService.loadBestStreak",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "save_service_saveBestStreak",
+      "label": "SaveService.saveBestStreak",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "save_service_loadTutorialSeen",
+      "label": "SaveService.loadTutorialSeen",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "save_service_saveTutorialSeen",
+      "label": "SaveService.saveTutorialSeen",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reward_models_RewardType",
+      "label": "RewardType",
+      "file_type": "code",
+      "source_file": "lib/features/rewards/reward_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_models_PlayerState",
+      "label": "PlayerState",
+      "file_type": "code",
+      "source_file": "lib/features/battle/battle_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_controller_BattleController",
+      "label": "BattleController",
+      "file_type": "code",
+      "source_file": "lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_models_BattleStatus",
+      "label": "BattleStatus",
+      "file_type": "code",
+      "source_file": "lib/features/battle/battle_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_preferences_SharedPreferences",
+      "label": "SharedPreferences",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_preferences_best_streak_key",
+      "label": "best_streak",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_preferences_tutorial_seen_key",
+      "label": "tutorial_seen",
+      "file_type": "code",
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_screen_BattleScreen",
+      "label": "BattleScreen",
+      "file_type": "code",
+      "source_file": "lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "results_VictoryScreen",
+      "label": "VictoryScreen",
+      "file_type": "code",
+      "source_file": "lib/features/results/victory_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "results_GameOverScreen",
+      "label": "GameOverScreen",
+      "file_type": "code",
+      "source_file": "lib/features/results/game_over_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "home_TutorialDialog",
+      "label": "TutorialDialog",
+      "file_type": "code",
+      "source_file": "lib/features/home/tutorial_dialog.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "prd_PRD",
+      "label": "PRD: Dice Battler",
+      "file_type": "document",
+      "source_file": "PRD.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tech_design_TechnicalDesign",
+      "label": "Technical Design: Dice Battler",
+      "file_type": "document",
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "impl_plan_ImplementationPlan",
+      "label": "Implementation Plan: Dice Battler",
+      "file_type": "document",
+      "source_file": "IMPLEMENTATION_PLAN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "qa_checklist_QAChecklist",
+      "label": "QA Checklist: Dice Battler",
+      "file_type": "document",
+      "source_file": "QA_CHECKLIST.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "start_here_START_HERE",
+      "label": "START_HERE",
+      "file_type": "document",
+      "source_file": "START_HERE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "first_prompt_FIRST_PROMPT",
+      "label": "FIRST_PROMPT",
+      "file_type": "document",
+      "source_file": "FIRST_PROMPT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_md_CLAUDE",
+      "label": "CLAUDE instructions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_offline_only",
+      "label": "Offline-only game",
+      "file_type": "document",
+      "source_file": "PRD.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_android_only",
+      "label": "Android-only app",
+      "file_type": "document",
+      "source_file": "PRD.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_plain_flutter_no_flame",
+      "label": "Plain Flutter app (no Flame)",
+      "file_type": "document",
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_material3",
+      "label": "Material 3 UI",
+      "file_type": "document",
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_change_notifier_arch",
+      "label": "ChangeNotifier-based local state",
+      "file_type": "document",
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_reward_flow",
+      "label": "Reward selection after wins (battles 1-9)",
+      "file_type": "document",
+      "source_file": "PRD.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_persistence_keys",
+      "label": "Persistence keys: best_streak, tutorial_seen",
+      "file_type": "document",
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "rationale_no_flame_turn_based",
+      "label": "Reason: turn-based + UI-first \u2192 plain Flutter",
+      "file_type": "document",
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "rationale_pure_functions_testability",
+      "label": "Reason: pure Dart logic \u2192 easier testing/debugging",
+      "file_type": "document",
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "reward_screen_RewardScreen",
+      "target": "reward_service_titleFor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/rewards/reward_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reward_screen_RewardScreen",
+      "target": "reward_service_descriptionFor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/rewards/reward_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reward_screen_RewardScreen",
+      "target": "reward_models_RewardType",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/rewards/reward_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reward_service_applyReward",
+      "target": "battle_models_PlayerState",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reward_service_applyReward",
+      "target": "reward_models_RewardType",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reward_service_buildRewardChoices",
+      "target": "reward_models_RewardType",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "run_controller_continueFromBattleResult",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "run_controller_markTutorialSeen",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "run_controller_selectReward",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "run_controller_restartRun",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "run_controller_RunController",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "battle_screen_BattleScreen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "reward_screen_RewardScreen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "results_VictoryScreen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "results_GameOverScreen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "home_TutorialDialog",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_screen_RunScreen",
+      "target": "save_service_SaveService",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "run_state_RunState",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "run_controller_RunStage",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "battle_controller_BattleController",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "save_service_loadBestStreak",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "save_service_loadTutorialSeen",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "save_service_saveBestStreak",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "save_service_saveTutorialSeen",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "reward_service_buildRewardChoices",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "reward_service_applyReward",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_continueFromBattleResult",
+      "target": "battle_models_BattleStatus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_state_RunState",
+      "target": "battle_models_PlayerState",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/run/run_state.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "save_service_loadBestStreak",
+      "target": "shared_preferences_SharedPreferences",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "save_service_loadTutorialSeen",
+      "target": "shared_preferences_SharedPreferences",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "save_service_saveBestStreak",
+      "target": "shared_preferences_SharedPreferences",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "save_service_saveTutorialSeen",
+      "target": "shared_preferences_SharedPreferences",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "save_service_SaveService",
+      "target": "shared_preferences_best_streak_key",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "save_service_SaveService",
+      "target": "shared_preferences_tutorial_seen_key",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prd_PRD",
+      "target": "concept_reward_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PRD.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prd_PRD",
+      "target": "concept_offline_only",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PRD.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "prd_PRD",
+      "target": "concept_android_only",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PRD.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "tech_design_TechnicalDesign",
+      "target": "concept_plain_flutter_no_flame",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "tech_design_TechnicalDesign",
+      "target": "concept_change_notifier_arch",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "tech_design_TechnicalDesign",
+      "target": "concept_persistence_keys",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "tech_design_TechnicalDesign",
+      "target": "concept_material3",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_no_flame_turn_based",
+      "target": "concept_plain_flutter_no_flame",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_pure_functions_testability",
+      "target": "reward_service_RewardService",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "TECHNICAL_DESIGN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "impl_plan_ImplementationPlan",
+      "target": "concept_reward_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "IMPLEMENTATION_PLAN.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_checklist_QAChecklist",
+      "target": "concept_reward_flow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "QA_CHECKLIST.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "start_here_START_HERE",
+      "target": "first_prompt_FIRST_PROMPT",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "START_HERE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "first_prompt_FIRST_PROMPT",
+      "target": "claude_md_CLAUDE",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FIRST_PROMPT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reward_service_RewardService",
+      "target": "concept_reward_flow",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reward_service_RewardService",
+      "target": "prd_PRD",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "lib/features/rewards/reward_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "run_controller_RunController",
+      "target": "concept_change_notifier_arch",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "lib/features/run/run_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "save_service_SaveService",
+      "target": "concept_persistence_keys",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "lib/features/storage/save_service.dart",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "run_flow_screens",
+      "label": "Run flow screens (battle \u2192 reward \u2192 results)",
+      "nodes": [
+        "run_screen_RunScreen",
+        "run_controller_RunController",
+        "battle_screen_BattleScreen",
+        "reward_screen_RewardScreen",
+        "results_VictoryScreen",
+        "results_GameOverScreen"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "lib/features/run/run_screen.dart"
+    },
+    {
+      "id": "persistence_values",
+      "label": "Persistence values stored via shared_preferences",
+      "nodes": [
+        "save_service_SaveService",
+        "shared_preferences_best_streak_key",
+        "shared_preferences_tutorial_seen_key",
+        "shared_preferences_SharedPreferences"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/storage/save_service.dart"
+    },
+    {
+      "id": "reward_pool",
+      "label": "Reward pool and application",
+      "nodes": [
+        "reward_service_RewardService",
+        "reward_service_buildRewardChoices",
+        "reward_service_applyReward",
+        "reward_models_RewardType",
+        "battle_models_PlayerState"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "lib/features/rewards/reward_service.dart"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,33 @@
+[
+  [
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/main.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/app/routes.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/app/app.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/app/theme.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/battle/battle_models.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/battle/battle_screen.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/battle/battle_controller.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/battle/enemy_factory.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/battle/turn_resolver.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/home/tutorial_dialog.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/home/home_screen.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/rewards/reward_service.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/rewards/reward_screen.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/rewards/reward_models.dart"
+  ],
+  [
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/storage/save_service.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/results/game_over_screen.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/results/victory_screen.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/run/run_controller.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/run/run_screen.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/lib/features/run/run_state.dart",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/PRD.md",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/START_HERE.md",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/QA_CHECKLIST.md",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/FIRST_PROMPT.md",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/IMPLEMENTATION_PLAN.md",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/CLAUDE.md",
+    "/Users/rahul.shah/Documents/Codex/Dice Battler/graphify-corpus/TECHNICAL_DESIGN.md"
+  ]
+]

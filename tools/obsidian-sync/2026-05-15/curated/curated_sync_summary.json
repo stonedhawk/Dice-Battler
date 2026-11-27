@@ -1,0 +1,76 @@
+{
+  "files": 86,
+  "nodes": 287,
+  "edges": 612,
+  "communities": 10,
+  "systems": [
+    "app_shell",
+    "battle_logic",
+    "enemy_generation",
+    "gsd_workflow",
+    "persistence",
+    "quality_gates",
+    "rewards",
+    "run_flow",
+    "second_brain"
+  ],
+  "phases": [
+    "phase_1",
+    "phase_2",
+    "phase_3",
+    "phase_4",
+    "phase_5"
+  ],
+  "top_god_nodes": [
+    {
+      "id": "import::package_flutter_material_dart",
+      "label": "package:flutter/material.dart",
+      "degree": 23
+    },
+    {
+      "id": "phase_1",
+      "label": "Phase 1: Project shell and rule engine",
+      "degree": 9
+    },
+    {
+      "id": "phase_2",
+      "label": "Phase 2: Battle screen",
+      "degree": 8
+    },
+    {
+      "id": "import::battle_models_dart",
+      "label": "battle_models.dart",
+      "degree": 8
+    },
+    {
+      "id": "import::package_flutter_test_flutter_test_dart",
+      "label": "package:flutter_test/flutter_test.dart",
+      "degree": 8
+    },
+    {
+      "id": "phase_3",
+      "label": "Phase 3: Run flow and rewards",
+      "degree": 7
+    },
+    {
+      "id": "phase_4",
+      "label": "Phase 4: Persistence and polish",
+      "degree": 7
+    },
+    {
+      "id": "phase_5",
+      "label": "Phase 5: Stabilization",
+      "degree": 5
+    },
+    {
+      "id": "import::package_flutter_foundation_dart",
+      "label": "package:flutter/foundation.dart",
+      "degree": 4
+    },
+    {
+      "id": "import::reward_models_dart",
+      "label": "reward_models.dart",
+      "degree": 4
+    }
+  ]
+}

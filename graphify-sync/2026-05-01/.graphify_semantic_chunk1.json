@@ -1,0 +1,751 @@
+{
+  "nodes": [
+    {
+      "id": "main_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/main.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "app_dicebattlerapp",
+      "label": "DiceBattlerApp",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/app/app.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "routes_approutes",
+      "label": "AppRoutes",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/app/routes.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "theme_buildapptheme",
+      "label": "buildAppTheme()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/app/theme.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "run_runscreen",
+      "label": "RunScreen",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/app/app.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "storage_saveservice",
+      "label": "SaveService",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "home_homescreen",
+      "label": "HomeScreen",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "home_homescreenstate",
+      "label": "_HomeScreenState",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "home_loadbeststreak",
+      "label": "_loadBestStreak()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "home_tutorialdialog",
+      "label": "TutorialDialog",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/home/tutorial_dialog.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_models_actiontype",
+      "label": "ActionType",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_models_enemytype",
+      "label": "EnemyType",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_models_diemodel",
+      "label": "DieModel",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_models_playerstate",
+      "label": "PlayerState",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_models_enemystate",
+      "label": "EnemyState",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "turn_resolver_turnoutcome",
+      "label": "TurnOutcome",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/turn_resolver.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "turn_resolver_resolveturn",
+      "label": "resolveTurn()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/turn_resolver.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "enemy_factory_enemyfactory",
+      "label": "EnemyFactory",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "enemy_factory_createenemyforbattle",
+      "label": "EnemyFactory.createEnemyForBattle()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "enemy_factory_battlemultiplierforbattle",
+      "label": "EnemyFactory.battleMultiplierForBattle()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "enemy_factory_lineuptypeforbattle",
+      "label": "EnemyFactory.lineupTypeForBattle()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_controller_battlestatus",
+      "label": "BattleStatus",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_controller_battlecontroller",
+      "label": "BattleController",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_controller_cycledieaction",
+      "label": "BattleController.cycleDieAction()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_controller_resolvecurrentturn",
+      "label": "BattleController.resolveCurrentTurn()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_controller_restartbattle",
+      "label": "BattleController.restartBattle()",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_screen_battlescreen",
+      "label": "BattleScreen",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_screen_battlescreenstate",
+      "label": "_BattleScreenState",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_screen_combatantcard",
+      "label": "_CombatantCard",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_screen_diecard",
+      "label": "_DieCard",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "battle_screen_summarychip",
+      "label": "_SummaryChip",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "results_gameoverscreen",
+      "label": "GameOverScreen",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/results/game_over_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "results_victoryscreen",
+      "label": "VictoryScreen",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/results/victory_screen.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "rewards_rewardtype",
+      "label": "RewardType",
+      "file_type": "code",
+      "source_file": "graphify-corpus/lib/features/rewards/reward_models.dart",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "main_main",
+      "target": "app_dicebattlerapp",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/main.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "app_dicebattlerapp",
+      "target": "theme_buildapptheme",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/app/app.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "app_dicebattlerapp",
+      "target": "routes_approutes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/app/app.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "app_dicebattlerapp",
+      "target": "home_homescreen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/app/app.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "app_dicebattlerapp",
+      "target": "run_runscreen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/app/app.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "app_dicebattlerapp",
+      "target": "battle_screen_battlescreen",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/app/app.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "home_homescreen",
+      "target": "storage_saveservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "home_homescreenstate",
+      "target": "home_loadbeststreak",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "home_loadbeststreak",
+      "target": "storage_saveservice",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "home_homescreen",
+      "target": "routes_approutes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/home/home_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_battlecontroller",
+      "target": "enemy_factory_createenemyforbattle",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_battlecontroller",
+      "target": "turn_resolver_resolveturn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_battlecontroller",
+      "target": "battle_models_playerstate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_battlecontroller",
+      "target": "battle_models_enemystate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_battlecontroller",
+      "target": "battle_models_diemodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_cycledieaction",
+      "target": "battle_models_diemodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_resolvecurrentturn",
+      "target": "turn_resolver_resolveturn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "turn_resolver_resolveturn",
+      "target": "turn_resolver_turnoutcome",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/turn_resolver.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "turn_resolver_resolveturn",
+      "target": "battle_models_playerstate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/turn_resolver.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "turn_resolver_resolveturn",
+      "target": "battle_models_enemystate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/turn_resolver.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "turn_resolver_resolveturn",
+      "target": "battle_models_diemodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/turn_resolver.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "enemy_factory_createenemyforbattle",
+      "target": "battle_models_enemystate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "enemy_factory_createenemyforbattle",
+      "target": "battle_models_enemytype",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "enemy_factory_enemyfactory",
+      "target": "enemy_factory_battlemultiplierforbattle",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_battlescreen",
+      "target": "battle_controller_battlecontroller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_battlescreenstate",
+      "target": "battle_controller_battlecontroller",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_battlescreen",
+      "target": "battle_controller_restartbattle",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_diecard",
+      "target": "battle_controller_cycledieaction",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_battlescreen",
+      "target": "battle_controller_resolvecurrentturn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_battlescreen",
+      "target": "battle_models_actiontype",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_battlescreen",
+      "target": "battle_models_enemytype",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_screen_diecard",
+      "target": "battle_models_diemodel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-corpus/lib/features/battle/battle_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "results_gameoverscreen",
+      "target": "results_victoryscreen",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "graphify-corpus/lib/features/results/game_over_screen.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "battle_controller_battlecontroller",
+      "target": "battle_screen_battlescreen",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "enemy_factory_enemyfactory",
+      "target": "battle_controller_battlecontroller",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "graphify-corpus/lib/features/battle/enemy_factory.dart",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "battle_turn_flow",
+      "label": "Battle turn flow",
+      "nodes": [
+        "battle_screen_battlescreen",
+        "battle_controller_battlecontroller",
+        "turn_resolver_resolveturn",
+        "enemy_factory_enemyfactory",
+        "battle_models_diemodel",
+        "battle_models_playerstate",
+        "battle_models_enemystate"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "graphify-corpus/lib/features/battle/battle_controller.dart"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
